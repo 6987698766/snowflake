@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./css/middle.css">
     <link rel="stylesheet" href="./css/large.css">
     <link rel="stylesheet" href="./css/huge.css">
+    <link rel="stylesheet" href="./css/cellphone.css">
+
     <!-- 輪播圖套件 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>    
     <link rel="stylesheet" href="./slick/slick.css">
@@ -118,6 +120,28 @@
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 2500,
+                responsive: [
+                    {
+                        breakpoint: 768, // 平板寬度
+                        settings: {
+                        slidesToShow: 3, // 在平板上顯示一個 slide
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 2500,
+
+                        }
+                    },
+                    {
+                        breakpoint: 480, // 手機寬度
+                        settings: {
+                        slidesToShow: 1, // 在手機上顯示一個 slide
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 2500,
+
+                        }
+                    }
+                ]
             });
         });
     </script>
