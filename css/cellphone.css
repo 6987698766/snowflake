@@ -1,0 +1,74 @@
+/* 超小屏幕 */
+@media screen and (max-width:600px) {
+    .container {
+        width: 100%;
+        margin: 0 auto; /* 置中 */
+    }
+    
+    /* #region頂部導航條 start */
+
+        .top-announcement {
+            height: 40px;
+            background-color: #ECECEC;
+        }
+
+        .announcement {
+            height: 40px;
+            line-height: 20px;
+            font-size: 16px;
+            text-align: center;
+            width: 100%;
+        }
+
+        /* .announcement span {
+            background-color: #ECECEC;  
+        } */
+
+        /* #endregion頂部導航條 end */
+
+    /* #region頭部 Start */
+    .header .logo {
+        float: none;
+    }
+
+    .header .logo img {
+        width: 160px;
+        height: 40px;
+        margin: 30px auto; /*響應式logo置中*/
+    }
+
+    .main-nav {
+        float: none;
+        text-align: center;
+    }
+
+    .main-nav-list {
+        float: none;
+        height: 20px; 
+        line-height: 20px;
+    }
+
+    .main-nav-list {
+        display: inline-block;
+    }
+
+    .main-nav-list li {
+        float: left;
+        margin: 0 10px;
+        font-size: 16px;
+    }
+    /* #endregion頭部 End */
+
+    /* #region頁腳 */
+        .bottom-links-list li {
+            float: none;
+        }
+
+        .bottom-links-list li a {
+            border-right: none;
+            padding: 0px;
+        }
+
+    /* #endregion*/
+
+}

@@ -1,0 +1,7 @@
+/* 中等屏幕 */
+@media screen and (min-width:768px) and (max-width:992px) {
+    .container {
+        width: 100%;
+        margin: 0 auto; /* 置中 */
+    }
+}
