@@ -1,9 +1,0 @@
-/* 超小屏幕 */
-@media screen and (max-width:768px) {
-    .container {
-        /* width: 993px; */
-        width: 100%;
-        margin: 0 auto; /* 置中 */
-    }
-    
-}
