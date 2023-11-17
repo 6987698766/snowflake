@@ -24,11 +24,6 @@ html { scroll-behavior: smooth; }
 /* #region頭部 Start */
 .header {
     height: 120px;
-    /* background-color: skyblue; */
-}
-
-.header .logo {
-
 }
 
 .header .logo img {
